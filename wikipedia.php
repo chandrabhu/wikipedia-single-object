@@ -1,7 +1,7 @@
-Solution
-Aggregate the objects together and use the __call() and __callStatic() magic methods
-to intercept method invocations and route them accordingly:
 <?php
+
+//Aggregate the objects together and use the __call() and __callStatic() magic methods
+//to intercept method invocations and route them accordingly:
 
 class Address {
 protected $city;
